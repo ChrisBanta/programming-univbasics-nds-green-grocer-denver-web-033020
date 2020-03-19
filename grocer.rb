@@ -88,7 +88,7 @@ def apply_clearance(cart)
     if cart[index][:clearance]
     cart[index][:price] = ((cart[index][:price]) - (cart[index][:price]* 0.20)).round(2)
 end
- index += 1 
+ index += 1
   end
 end
 
